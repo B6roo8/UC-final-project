@@ -1,0 +1,172 @@
+body{
+    margin: 0%;
+    padding: 0 auto;
+    background-color: #1c2a44;
+}
+.navbar{
+    background-color: #FFE15C;
+    overflow: hidden;
+}
+.navbar a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 24px;
+    font-size: 16px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: lightgray;
+    color: black;
+}
+.navbar a.active {
+    background-color: darkblue;
+    color: white;
+}
+.navbar a.login{
+    float: right;
+}
+.navbar [type="text"] {
+    padding: 16px;
+    margin: 6px;
+    font-size: 14px;
+    width: 300px;
+    text-align: left;
+    height: 5px;
+}
+.search-bar{
+    padding-top: 7px;
+    float: right;
+}
+
+.content {
+  padding: 16px;
+}
+.sticky {
+    position: fixed;
+    width: 100%;
+}
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.main{
+    height: 94vh;
+}
+
+.testing h1{
+    text-align: left;
+    margin-top: 150px;
+    font-size: 32px;
+    padding-left: 36px;
+}
+.testing2 h1{
+    text-align: left;
+    margin-top: 50px ;
+    font-size: 32px;
+    padding-left: 36px;    
+}
+.testing3 h1{
+    text-align: left;
+    margin-top: 50px ;
+    font-size: 32px;
+    padding-left: 36px; 
+    padding-top: 70px;
+}
+.card{
+   width:15%;
+   display: inline-block;
+   box-shadow: 2px 2px 20px black;
+   border-radius: 50px; 
+   margin: 2%;
+   
+}
+
+.image{
+    height: 250px;
+    width: 100%;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+}
+
+.title{ 
+    text-align: center;
+    padding: 10px;
+}
+ 
+h1{
+    font-size: 20px;
+    color: #fff;
+     
+}
+ 
+p{
+    color: #fff;
+}
+ 
+.des{
+    padding: 3px;
+    text-align: center; 
+    padding-top: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+button{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding:14px;
+}
+ 
+button:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+.checked {
+    color: orange;
+}
+/* quick reset */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+  
+/* relevant styles */
+.image {
+    position: relative;
+    
+}
+
+.img__description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+  
+}
+  
+.image:hover .img__description {
+    visibility: visible;
+    opacity: 5;
+    text-align: center;        
+}
+
+header{
+    position: absolute;
+    z-index: 10;
+    top: 0;
+}

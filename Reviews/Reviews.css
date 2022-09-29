@@ -1,0 +1,85 @@
+body {
+    background-color: #1c2a44;
+    margin: 0%;
+}
+
+.navbar{
+    background-color: #FFE15C;
+    overflow: hidden;
+}
+.navbar a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 24px;
+    font-size: 16px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: lightgray;
+    color: black;
+}
+.navbar a.active {
+    background-color: darkblue;
+    color: white;
+}
+.navbar a.login{
+    float: right;
+}
+.navbar [type="text"] {
+    padding: 16px;
+    margin: 6px;
+    font-size: 14px;
+    width: 300px;
+    text-align: left;
+    height: 5px;
+}
+.search-bar{
+    padding-top: 7px;
+    float: right;
+}
+
+.content {
+  padding: 16px;
+}
+.sticky {
+    position: fixed;
+    width: 100%;
+}
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.title{
+    color: white;
+    display: block;
+    padding-top: 200px;
+    padding-left: 20px;
+}
+
+.image{
+    display: inline;
+    padding-left: 20px;
+}
+
+.yt{
+    display: inline;
+}
+
+.description{
+    padding-left: 25px;
+    color: white;
+    padding-right: 600px;
+}
+#comment-box{
+    width: 600px;
+    height: 100px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    
+}
+
+#post:hover{
+    background-color: #ccc;
+}
